@@ -62,22 +62,7 @@ export default function Login() {
           <h1 className="font-display text-4xl text-sand-100 mb-2">Welcome back</h1>
           <p className="text-sand-500 mb-8">Sign in to continue your journey</p>
 
-          {/* Demo credentials hint */}
-          <div className="card p-4 mb-6 border-sand-500/20">
-            <p className="text-xs font-mono text-sand-500 mb-2">Demo credentials:</p>
-            <div className="grid grid-cols-2 gap-2 text-xs font-mono">
-              <div>
-                <p className="text-sand-400">Admin</p>
-                <p className="text-sand-600">admin@travel.com</p>
-                <p className="text-sand-600">admin123</p>
-              </div>
-              <div>
-                <p className="text-sand-400">User</p>
-                <p className="text-sand-600">user@travel.com</p>
-                <p className="text-sand-600">user1234</p>
-              </div>
-            </div>
-          </div>
+         
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
